@@ -1,4 +1,4 @@
-# MTCNN
+# MTCNN model
 MTCNN (Multi-task Cascaded Convolutional Networks) is a framework developed as a solution for both face detection and face alignment. The process consists of three stages of convolutional networks that are able to recognize faces and landmark location such as eyes, nose, and mouth. The Three Stages of MTCNN: first, the image is rescaled to a range of different sizes (called an image pyramid), then the first model (Proposal Network or P-Net) proposes candidate facial regions, the second model (Refine Network or R-Net) filters the bounding boxes, and the third model (Output Network or O-Net) proposes facial landmarks. The figure below provides a summary of the three stages from top-to-bottom and the output of each stage left to right. 
 
 <p align="center">
