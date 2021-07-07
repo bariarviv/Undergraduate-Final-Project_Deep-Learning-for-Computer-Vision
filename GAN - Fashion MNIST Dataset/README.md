@@ -1,1 +1,1 @@
-# Undergraduate Final Project - Deep Learning for Computer Vision
+# GAN - Fashion MNIST Dataset
