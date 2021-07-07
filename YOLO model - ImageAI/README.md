@@ -1,4 +1,4 @@
-# YOLOv3-ImageAI
+# YOLOv3 model using ImageAI
 
 [![Documentation](https://img.shields.io/badge/YOLOve%20ImageAI-documentation-brightgreen.svg?longCache=true)](https://imageai.readthedocs.io/en/latest/video/index.html)
 
