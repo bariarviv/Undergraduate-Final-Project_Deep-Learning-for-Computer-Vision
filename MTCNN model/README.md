@@ -70,7 +70,7 @@ pip install mtcnn
 
 ## Results
 <p align="center">
-  <img src="bari faces.jpg">
-  <img src="test1 faces.jpg">
-  <img src="test2 faces.jpg">
+  <img src="results\bari faces.jpg">
+  <img src="results\test1 faces.jpg">
+  <img src="results\test2 faces.jpg">
 </p>
