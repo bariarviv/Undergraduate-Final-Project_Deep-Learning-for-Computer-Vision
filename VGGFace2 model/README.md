@@ -1,4 +1,4 @@
-# Keras VGGFace2
+# Keras VGGFace2 model
 Face recognition is the general task of identifying and verifying people from photographs of their faces. Face Recognition describes two main modes for face recognition:
 * Face Verification: a one-to-one mapping of a given face against a known identity (e.g. is this the person?).
 * Face Identification: a one-to-many mapping for a given face against a dataset of known faces (e.g. who is this person?).
@@ -52,8 +52,8 @@ pip install git+https://github.com/rcmalli/keras-vggface.git
 ## Results
 Running the program produces as an output the face identified in each image received as input and finally, a summary of the given cases. 
 <p align="center">
-  <img src="faces.png">
-  <img src="Result.jpg">
+  <img src="results/faces.png">
+  <img src="results/Result.jpg">
 </p>
 
 We can see that the system correctly verified the two positive cases given photos of Sharon Stone. We can also see that the photos of Channing Tatum, Abigail Breslin, and Julia Roberts are correctly not verified as Sharon Stone.
