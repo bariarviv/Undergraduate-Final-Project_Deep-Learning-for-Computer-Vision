@@ -6,13 +6,13 @@ An example of a simple three-layer artificial neural network whose purpose is to
 
 At the beginning of training, the network's performance is not impressive, but as it continues to train a significant improvement can be seen. After 10 epochs of training, it correctly classifies 36.5 percent of the validation images. After 200 epochs, the network’s improvement appears to be plateauing as it approaches 86 percent validation accuracy.
 
-<p align="center">
-  <img src="MNIST.png">
-</p>
-
 ### Requirements
 ~~~bash
 pip install matplotlib 
 pip install tensorflow 
 pip install Keras 
 ~~~
+
+<p align="center">
+  <img src="MNIST.png" width="900" height="700">
+</p>
