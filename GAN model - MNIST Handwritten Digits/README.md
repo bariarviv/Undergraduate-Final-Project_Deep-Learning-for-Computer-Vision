@@ -7,8 +7,8 @@ Generative Adversarial Network, or GAN, is an architecture for training generati
 </p>
 
 Training a GAN consists of two opposing processes:
-* Discriminator training: in this process the generator produces fake images, that is, it performs inference only, while the discriminator learns to tell the fake images from real ones.
-* Generator training: in this process the discriminator judges fake images produced by the generator. Here, it is the discriminator that performs inference only, whereas it’s the generator that uses this information to learn, in this case, to learn how to better fool the discriminator into classifying fake images as real ones.
+* **Discriminator training:** in this process the generator produces fake images, that is, it performs inference only, while the discriminator learns to tell the fake images from real ones.
+* **Generator training:** in this process the discriminator judges fake images produced by the generator. Here, it is the discriminator that performs inference only, whereas it’s the generator that uses this information to learn, in this case, to learn how to better fool the discriminator into classifying fake images as real ones.
 
 <p align="center">
   <img src="images\2.png" width="450" height="200">
