@@ -18,10 +18,10 @@ The mapping of all 0-9 integers to class labels is listed below:
 It is a more challenging classification problem than MNIST and top results are achieved by deep learning convolutional neural networks with a classification accuracy of about 90% to 95% on the hold out test dataset.
 
 <p align="center">
-  <img src="images\Fashin MNIST.png" width="650" height="600">
+  <img src="images\Fashin MNIST.png" width="600" height="560">
 </p>
 
-The baseline model was developed in order to estimate the performance of a model on the problem in general, in the example, 5-fold cross-validation was used. The value of k=5 was chosen to provide a baseline for both repeated evaluation and to not be too large as to require a long running time. Each test set will be 20% of the training dataset, or about 12,000 examples, close to the size of the actual test set for this problem. The training dataset is shuffled prior to being split and the sample shuffling is performed each time so that any model evaluated will have the same train and test datasets in each fold.
+The baseline model was developed in order to estimate the performance of a model on the problem in general, in the example, 5-fold cross-validation was used. The value of k = 5 was chosen to provide a baseline for both repeated evaluation and to not be too large as to require a long running time. Each test set will be 20% of the training dataset, or about 12,000 examples, close to the size of the actual test set for this problem. The training dataset is shuffled prior to being split and the sample shuffling is performed each time so that any model evaluated will have the same train and test datasets in each fold.
 
 ## Requirements
 ~~~bash
@@ -38,3 +38,5 @@ The diagnostics involve creating a line plot showing model performance on the tr
 <p align="center">
   <img src="results/Fashion MNIST1.png" width="550" height="450">
 </p>
+
+In this case, we can see that the model generally achieves a good fit, with train and test learning curves converging. There may be some signs of slight overfitting.
