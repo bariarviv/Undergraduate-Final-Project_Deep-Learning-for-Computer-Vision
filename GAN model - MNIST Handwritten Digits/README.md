@@ -3,7 +3,7 @@
 Generative Adversarial Network, or GAN, is an architecture for training generative models, such as deep convolutional neural networks for generating images. A GAN involves two deep learning networks pitted against each other in an adversarial relationship. One network is a generator that produces forgeries of images, and the other is a discriminator that attempts to distinguish the generator’s fakes from the real thing. The generator is tasked with receiving a random noise input and turning this into a fake image. The discriminator, a binary classifier of real versus fake images. Over several rounds of training, the generator becomes better at producing more convincing forgeries, and so too the discriminator improves its capacity for detecting the fakes. As training continues, the two models battle it out, trying to outdo one another, and, in so doing, both models become more and more specialized at their respective tasks. Eventually, this adversarial interplay can culminate in the generator producing fakes that are convincing not only to the discriminator network but also to the human eye.
 
 <p align="center">
-  <img src="1.png" width="500" height="250">
+  <img src="images\1.png" width="500" height="250">
 </p>
 
 Training a GAN consists of two opposing processes:
@@ -11,8 +11,8 @@ Training a GAN consists of two opposing processes:
 * Generator training: in this process the discriminator judges fake images produced by the generator. Here, it is the discriminator that performs inference only, whereas it’s the generator that uses this information to learn, in this case, to learn how to better fool the discriminator into classifying fake images as real ones.
 
 <p align="center">
-  <img src="2.png" width="450" height="200">
-  <img src="3.png" width="450" height="200">
+  <img src="images\2.png" width="450" height="200">
+  <img src="images\3.png" width="450" height="200">
 </p>
 
 Thus, in each of these two processes, one of the models creates its output (either a fake image or a prediction of whether the image is fake) but is not trained, and the other model uses that output to learn to perform its task better.
