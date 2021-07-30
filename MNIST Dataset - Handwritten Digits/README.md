@@ -14,5 +14,5 @@ pip install Keras
 ~~~
 
 <p align="center">
-  <img src="MNIST.png" width="900" height="700">
+  <img src="MNIST.png" width="650" height="350">
 </p>
