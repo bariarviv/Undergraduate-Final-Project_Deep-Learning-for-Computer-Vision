@@ -1,7 +1,7 @@
 # Keras VGGFace2 model
 Face recognition is the general task of identifying and verifying people from photographs of their faces. Face Recognition describes two main modes for face recognition:
-* Face Verification: a one-to-one mapping of a given face against a known identity (e.g. is this the person?).
-* Face Identification: a one-to-many mapping for a given face against a dataset of known faces (e.g. who is this person?).
+* **Face Verification:** a one-to-one mapping of a given face against a known identity (e.g. is this the person?).
+* **Face Identification:** a one-to-many mapping for a given face against a dataset of known faces (e.g. who is this person?).
 
 VGGFace2 is a very deep CNN architecture, which learned on a large-scale dataset, is used as a feature extractor to extract the activation vector of the fully connected layer in the CNN architecture. Before we can perform face recognition, we need to detect faces. Face detection is the process of automatically locating faces in a photograph and localizing them by drawing a bounding box around their extent. 
 
