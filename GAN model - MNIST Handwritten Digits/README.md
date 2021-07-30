@@ -11,8 +11,8 @@ Training a GAN consists of two opposing processes:
 * Generator training: in this process the discriminator judges fake images produced by the generator. Here, it is the discriminator that performs inference only, whereas it’s the generator that uses this information to learn, in this case, to learn how to better fool the discriminator into classifying fake images as real ones.
 
 <p align="center">
-  <img src="2.png" width="500" height="250">
-  <img src="3.png" width="500" height="250">
+  <img src="2.png" width="450" height="200">
+  <img src="3.png" width="450" height="200">
 </p>
 
 Thus, in each of these two processes, one of the models creates its output (either a fake image or a prediction of whether the image is fake) but is not trained, and the other model uses that output to learn to perform its task better.
@@ -29,52 +29,46 @@ pip install numpy
 ~~~
 
 ## Results
-### After 10 epochs:
-<p align="center">
-  <img src="results\After 10 epochs.png">
-</p>
 
-### After 20 epochs:
-<p align="center">
-  <img src="results\After 20 epochs.png">
-</p>
-
-### After 30 epochs:
-<p align="center">
-  <img src="results\After 30 epochs.png">
-</p>
-
-### After 40 epochs:
-<p align="center">
-  <img src="results\After 40 epochs.png">
-</p>
-
-### After 50 epochs:
-<p align="center">
-  <img src="results\After 50 epochs.png">
-</p>
-
-### After 60 epochs:
-<p align="center">
-  <img src="results\After 60 epochs.png">
-</p>
-
-### After 70 epochs:
-<p align="center">
-  <img src="results\After 70 epochs.png">
-</p>
-
-### After 80 epochs:
-<p align="center">
-  <img src="results\After 80 epochs.png">
-</p>
-
-### After 90 epochs:
-<p align="center">
-  <img src="results\After 90 epochs.png">
-</p>
-
-### After 100 epochs:
-<p align="center">
-  <img src="results\After 100 epochs.png">
-</p>
+<table align="center">
+  <tr>
+    <th>After 10 epochs:</th>
+    <th>After 20 epochs:</th>
+  </tr>
+  <tr>
+    <td><img src="results\After 10 epochs.png"></td>
+    <td><img src="results\After 20 epochs.png"></td>
+  </tr>
+  <tr>
+    <th>After 30 epochs:</th>
+    <th>After 40 epochs:</th>
+  </tr>
+  <tr>
+    <td><img src="results\After 30 epochs.png"></td>
+    <td><img src="results\After 40 epochs.png"></td>
+  </tr>
+  <tr>
+    <th>After 50 epochs:</th>
+    <th>After 60 epochs:</th>
+  </tr>
+  <tr>
+    <td><img src="results\After 50 epochs.png"></td>
+    <td><img src="results\After 60 epochs.png"></td>
+  </tr>
+  <tr>
+    <th>After 70 epochs:</th>
+    <th>After 80 epochs:</th>
+  </tr>
+  <tr>
+    <td><img src="results\After 70 epochs.png"></td>
+    <td><img src="results\After 80 epochs.png"></td>
+  </tr>
+  <tr>
+    <th>After 90 epochs:</th>
+    <th>After 100 epochs:</th>
+  </tr>
+  <tr>
+    <td><img src="results\After 90 epochs.png"></td>
+    <td><img src="results\After 100 epochs.png"></td>
+  </tr>
+</table>
