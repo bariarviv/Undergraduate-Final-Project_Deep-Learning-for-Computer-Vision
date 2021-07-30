@@ -8,12 +8,9 @@ Object detection is a computer vision task that involves both localizing one or 
 The You Only Look Once (YOLO), a family of models is a series of end-to-end deep learning models designed for fast object detection. The approach involves a single deep convolutional neural network that splits the input into a grid of cells and each cell directly predicts a bounding box and object classification. The result is a large number of candidate bounding boxes that are consolidated into a final prediction by a post-processing step.
 
 ## Requirements
-- Download the model from the following site:
+- **Download the model from the following site:**
 https://imageai.readthedocs.io/en/latest/video/index.html
-- Download the imageai package using the command: 
-~~~bash
-pip install imageai
-~~~
+- **Download the imageai package using the command:** `pip install imageai`
 
 ## Results
 ![caption](https://media.giphy.com/media/ZYGWPZkCAwypswYq5V/giphy.gif)
