@@ -32,5 +32,5 @@ pip install Keras
 The diagnostics involve creating a line plot showing model performance on the train and test set during training. These plots are valuable for getting an idea of whether a model is overfitting, underfitting, or has a good fit for the dataset. We will create a single figure with two subplots, one for loss and one for accuracy. The blue lines will indicate model performance on the training dataset and orange lines will indicate performance on the hold-out test dataset. The plot is saved to a file, specifically a file with the same name as the script with a png extension. Running the code prints the classification accuracy. The model achieved accuracy 88.80%. The results in figure below show that the model is now learning well, and we have good control over the rate of learning without overfitting.
 
 <p align="center">
-  <img src="results/CIFAR10.png" width="550" height="450">
+  <img src="results/CIFAR-10_plot.png" width="550" height="450">
 </p>
