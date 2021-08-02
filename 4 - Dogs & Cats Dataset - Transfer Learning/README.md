@@ -26,7 +26,7 @@ We loaded the VGG16 model, removed the fully connected layers from the output-en
 Once the model has been evaluated, the results are presented. There are two key aspects to examine: the diagnostics of the learning behavior of the model during training and the estimation of the model performance. First, the diagnostics involve creating a line plot showing model performance on the train and test set during training. These plots are valuable for getting an idea of whether a model is overfitting, underfitting, or has a good fit for the dataset. We will create a single figure with two subplots, one for loss and one for accuracy. The blue lines will indicate model performance on the training dataset and orange lines will indicate performance on the hold-out test dataset. The plot is saved to a file, specifically a file with the same name as the script with a png extension. Running the code prints the classification accuracy. The model achieved an accuracy of 97.906%.
 
 <p align="center">
-  <img src="results/Dogs&Cats_VGG16_plot.png" width="450" height="350">
+  <img src="results/Dogs&Cats_VGG16_plot.png" width="550" height="450">
 </p>
 
 The results in the figure below suggest that the model has good results in the training as well as in testing. By reviewing the learning curves in both cases, we can see that the results indicate that the model performs well. 
