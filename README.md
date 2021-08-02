@@ -9,9 +9,6 @@ The project deals with Deep Learning for Computer Vision.
     <td><img src="images/tai1.png"></td>
     <td><img src="images/tai2.png"></td>
   </tr>
-  <tr>
-    <td colspan="2" align="center"><img src="images/tai-aria.png" width="550"></td>
-  </tr>
 </table>
 
 Each layer of neurons calculates, according to the activation function defined for it, the weight values that constitute the outputs transmitted as input to the next layer. After construction, the model training process includes learning and optimization in order to achieve optimal performance and results. In this process, several epochs are performed, at the end of each of which a backpropagation is performed, which makes it possible to adjust the weight of the neurons in each layer according to their importance and effect on the process. At the end of the process, the optimal weights are selected, and it is possible to move on to the stage of testing the performance of the trained model. These tests are performed against new information, which was not included in the information on which the model was trained, and at this stage, no learning is performed (as a result, no backpropagation or weight value adjustment is performed). The model output obtained at the end of this stage is the prediction of the classification performed by it and the success rates in matching the classification. 
@@ -23,3 +20,7 @@ Finally, we developed a [GAN for the MNIST dataset](10%20-%20GAN%20model%20-%20M
 The conclusion of the study is that given preliminary information based on the literature and pre-trained models, the results of the models can be improved using a number of methods. for example:
 * **Pre-processing of the information (images) and performing Data Augmentation**, a method that allows you to add copies of images to the training set. Changes were made to these copies, such as rotation, inversion, smoothing, etc.
 * **Adding layers that aim to minimize/reduce the number of calculations** in the following layers, such as Dropout, Batch Normalization, Pooling, etc.
+
+<p align="center">
+  <img src="images/tai-aria.png" width="550">
+</p>
