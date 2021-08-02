@@ -4,12 +4,9 @@ The project deals with Deep Learning for Computer Vision.
 * **Computer Vision** is a field that deals with the automatic processing of images, in order to extract and interpret visual information hidden in the images. 
 * **Deep learning** is a network made up of several layers of neurons, with the number of neurons in each layer varying depending on the location of the layer and the unique need of the network.
 
-<table align="center">
-  <tr>
-    <td><img src="images/tai1.png"></td>
-    <td><img src="images/tai2.png"></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="images/tai-aria.png" width="800">
+</p>
 
 Each layer of neurons calculates, according to the activation function defined for it, the weight values that constitute the outputs transmitted as input to the next layer. After construction, the model training process includes learning and optimization in order to achieve optimal performance and results. In this process, several epochs are performed, at the end of each of which a backpropagation is performed, which makes it possible to adjust the weight of the neurons in each layer according to their importance and effect on the process. At the end of the process, the optimal weights are selected, and it is possible to move on to the stage of testing the performance of the trained model. These tests are performed against new information, which was not included in the information on which the model was trained, and at this stage, no learning is performed (as a result, no backpropagation or weight value adjustment is performed). The model output obtained at the end of this stage is the prediction of the classification performed by it and the success rates in matching the classification. 
 
@@ -22,5 +19,6 @@ The conclusion of the study is that given preliminary information based on the l
 * **Adding layers that aim to minimize/reduce the number of calculations** in the following layers, such as Dropout, Batch Normalization, Pooling, etc.
 
 <p align="center">
-  <img src="images/tai-aria.png" width="550">
+  <img src="images/tai1.png" width="480">
+  <img src="images/tai2.png" width="480">
 </p>
