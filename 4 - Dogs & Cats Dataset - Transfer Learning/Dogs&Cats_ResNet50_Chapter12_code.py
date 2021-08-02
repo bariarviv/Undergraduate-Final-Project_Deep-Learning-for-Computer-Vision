@@ -70,7 +70,7 @@ def run_test_harness():
 	# learning curves
 	summarize_diagnostics(history)
 	# save model
-	model.save('dogs_vs_cats_vgg16.h5')
+	model.save('dogs_vs_cats_resnet50.h5')
 
 def main():
 	# entry point, run the test harness
