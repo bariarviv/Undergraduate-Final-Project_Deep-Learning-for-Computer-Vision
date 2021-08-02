@@ -14,7 +14,12 @@ The conclusion of the study is that given preliminary information based on the l
 * **Pre-processing of the information (images) and performing Data Augmentation**, a method that allows you to add copies of images to the training set. Changes were made to these copies, such as rotation, inversion, smoothing, etc.
 * **Adding layers that aim to minimize/reduce the number of calculations** in the following layers, such as Dropout, Batch Normalization, Pooling, etc.
 
-<p align="center">
-  <img src="images/tai1.png" width="550" height="450">
-  <img src="images/tai2.png" width="550" height="450">
-</p>
+<table align="center">
+  <tr>
+    <td><img src="images/tai1.png"></td>
+    <td><img src="images/tai2.png"></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="images/tai-aria.png" width="550"></td>
+  </tr>
+</table>
