@@ -1,4 +1,4 @@
-# Example of training a GAN on Fashion-MNIST
+# Training a GAN on MNIST Dataset
 from matplotlib import pyplot
 from keras.optimizers import Adam
 from keras.models import Sequential
