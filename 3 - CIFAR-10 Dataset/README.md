@@ -18,25 +18,19 @@ These are very small images, much smaller than a typical photograph, as the data
 Listed below is the figure of the first nine images in the dataset. It can be challenging to see what exactly is represented in some of the images given the extremely low resolution. This low resolution is likely the cause of the limited performance that top-of-the-line algorithms are able to achieve on the dataset.
 
 <p align="center">
-  <img src="images\Fashin MNIST.png" width="600" height="560">
+  <img src="images\CIFAR10.png" width="500" height="400">
 </p>
-
-The baseline model was developed in order to estimate the performance of a model on the problem in general, in the example, 5-fold cross-validation was used. The value of k = 5 was chosen to provide a baseline for both repeated evaluation and to not be too large as to require a long running time. Each test set will be 20% of the training dataset, or about 12,000 examples, close to the size of the actual test set for this problem. The training dataset is shuffled prior to being split and the sample shuffling is performed each time so that any model evaluated will have the same train and test datasets in each fold.
 
 ## Requirements
 ~~~bash
 pip install matplotlib 
 pip install tensorflow 
 pip install Keras 
-pip install numpy
 ~~~
 
 ## Results
-
-The diagnostics involve creating a line plot showing model performance on the train and test set during each fold of the k-fold cross-validation. These plots are valuable for getting an idea of whether a model is overfitting, underfitting, or has a good fit for the dataset. There are two subplots, one for loss and one for accuracy. Blue lines indicate model performance on the training dataset and orange lines indicate performance on the hold out test dataset. Next, the classification accuracy scores collected during each fold are summarized by calculating the mean and standard deviation. This provides an estimate of the average expected performance of the model trained on this dataset, with an estimate of the average variance in the mean.
+The diagnostics involve creating a line plot showing model performance on the train and test set during training. These plots are valuable for getting an idea of whether a model is overfitting, underfitting, or has a good fit for the dataset. We will create a single figure with two subplots, one for loss and one for accuracy. The blue lines will indicate model performance on the training dataset and orange lines will indicate performance on the hold-out test dataset. The plot is saved to a file, specifically a file with the same name as the script with a png extension. Running the code prints the classification accuracy. The model achieved accuracy 88.80%. The results in figure below show that the model is now learning well, and we have good control over the rate of learning without overfitting.
 
 <p align="center">
-  <img src="results/Fashion MNIST1.png" width="550" height="450">
+  <img src="results/CIFAR10.png" width="550" height="450">
 </p>
-
-In this case, we can see that the model generally achieves a good fit, with train and test learning curves converging. There may be some signs of slight overfitting.
